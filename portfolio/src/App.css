@@ -1,0 +1,93 @@
+.links {
+/*border: solid red 1px;*/
+position: fixed;
+height: 60px;
+width: 100%;
+z-index: 1;
+/*background: white;*/
+/*background: yellow;*/
+
+}
+.profilePicture{
+  background-image: url('./images/profilepicture.jpg');
+  position: relative;
+  top:100px;
+  left:40%;
+  border:solid black 1px;
+  border-radius: 50%;
+  height: 200px;
+  width:200px;
+}
+
+.navbar {
+  position: relative;
+  margin: 5px;
+  color: white;
+  text-align: center;
+  top:100px;
+  /*margin-top:50px;*/
+}
+
+.footerLinks {
+  list-style-type: none;
+  float: left;
+  position: relative;
+  /*left:480px;*/
+  margin: 10px;
+
+}
+.footerLinks a{
+  border: solid white 1px;
+  padding: 2px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+.footerLinks a:hover {
+  color: white;
+  font-size: 18px
+}
+.projectsDiv{
+  text-align:center;
+  color:white;
+  border-top: white 1px solid;
+  position:relative;
+  top: 200px;
+  height:300px;
+  margin-top:30px;
+  padding-top:0px;
+
+}
+.skillsDiv{
+  text-align: center;
+  color:white;
+  border-top: white 1px solid;
+  position: relative;
+  top: 200px;
+  height:200px;
+  margin-top:150px;
+  padding-top: 50px;
+
+}
+.p3{
+  display: inline-block;
+  margin: 20px 10px;
+  background-color:white;
+  background-image: url('./images/project3.png');
+  width:250px;
+  height:250px;
+}
+.p2{
+    display: inline-block;
+    margin: 20px 10px;
+    background-image: url('./images/p2.png');
+  width:250px;
+  height:250px;
+}
+.p1{
+    display: inline-block;
+    margin: 20px 10px;
+    background-image: url('./images/p1.png');
+  width:250px;
+  height:250px;
+}
